@@ -2,17 +2,13 @@
 
 ![](../images/avatar-photo.jpg)
 
-Hi! I am Emma Brewer. I am an art director & graphic designer based in New York City working on branding, visual identities, editorial design and web design.
+Hi! I am Aleks Aghajanyhan. I am student from Dilijan Central School.
 
 Visit this website to see my work!
 
 ## My background
 
-I was born in a nice city called..
-
-## Previous work
-
-I'm a paragraph. Edit the page on Gitlab to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.​
+I was born in a nice city called Yerevan.
 
 ### Project A
 
