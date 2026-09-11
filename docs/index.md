@@ -1,12 +1,12 @@
 # Home
 
-## HԲարև և Ալեքսմ եմ
+## Ողջույն, ես Ալեքսն եմ։
 
 ![](./images/week01/assignment-photo.jpg)
 
-## Welcome to your new Fab Academy site
+## Բարի գալուստ Fab Academy-ի մեր նոր կայք
 
-This is an example student blog for the Fab Academy.
+Սա Fab Academy-ի ուսանողական բլոգի օրինակ է։
 
 ## How to edit it
 
