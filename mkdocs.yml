@@ -1,15 +1,14 @@
-# Replace the text below to customize your site
-site_name: Your name - Fab Academy
-site_description: Fab Academy documentation site for Your Name
-site_author: Your name
-copyright: Copyright 2022 Your name - Creative Commons Attribution Non Commercial
+# Կայքի հիմնական տվյալներ
+site_name: Ձեր անունը - Fab Academy
+site_description: Fab Academy փաստաթղթավորման կայք՝ Ձեր անվան համար
+site_author: Ձեր անունը
+copyright: Հեղինակային իրավունք 2026 Ձեր անունը - Creative Commons Attribution Non Commercial
 
 site_url: http://fibasile.fabcloud.io/fabacademy-student-template/
 
 extra:
-  # Set your own social media below (or remove)
+  # Ավելացրեք Ձեր սոցիալական ցանցերը ստորև (կամ հեռացրեք)
   social:
-    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/fabacademany
     - icon: fontawesome/brands/facebook
@@ -21,33 +20,50 @@ extra:
 
 theme:
   name: material
+  language: hy
   palette:
-    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: deep
-    accent: gold
+    - scheme: slate
+      primary: amber
+      accent: yellow
+      toggle:
+        icon: material/weather-night
+        name: Անցնել դեպի լուսավոր ռեժիմ
+    - scheme: default
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Անցնել դեպի մուգ ռեժիմ
   font:
-    # See available fonts at https://fonts.google.com/
-    text: Ubuntu
+    text: Noto Sans Armenian
     code: Ubuntu Mono
   icon:
     logo: material/school
   favicon: images/favicon.svg
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
 
 plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
-      # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
+      locale: hy
       enabled: !ENV [ENABLED_GIT_REVISION_DATE, False]
 
 markdown_extensions:
   - extra
   - smarty
   - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - codehilite:
       guess_lang: false
   - toc:
       permalink: true
+      title: Բովանդակություն
