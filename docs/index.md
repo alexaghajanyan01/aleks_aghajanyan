@@ -1,6 +1,6 @@
 # Home
 
-## Hello, new student!
+## HԲարև և Ալեքսմ եմ
 
 ![](./images/week01/assignment-photo.jpg)
 
