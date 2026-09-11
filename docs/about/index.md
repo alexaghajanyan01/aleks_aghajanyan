@@ -2,7 +2,7 @@
 
 ![](../images/avatar-photo.jpg)
 
-Hi! I am Aleks Aghajanyhan. I am student from Dilijan Central School.
+Hi! I am Aleks Aghajanyan. I am student from Dilijan Central School.
 
 Visit this website to see my work!
 
