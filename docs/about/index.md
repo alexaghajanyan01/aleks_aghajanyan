@@ -8,7 +8,7 @@
 
 ## My background
 
-Ես ծնվել եմ Երևանում։
+Ես ծնվել եմ Երևանում։ Սակայն սովորում եմ Դիլիջանում և հաճախում եմ FabLab:
 ### Project A
 
 This is an image from an external site:
