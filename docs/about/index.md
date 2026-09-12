@@ -1,6 +1,6 @@
 # Իմ մասին
 
-![](../images/dcs.jpg.jpg)
+![]("C:\Users\aghaj\OneDrive\Рабочий стол\fablabaleks\docs\images\dcs.jpg")
 
 Ողջույն! Ես Ալեքս Աղաջանյանն եմ։ Ես Դիլիջանի կենտրոնական դպրոցի աշակերտ եմ։
 
