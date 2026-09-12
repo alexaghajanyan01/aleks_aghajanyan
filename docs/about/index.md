@@ -2,14 +2,13 @@
 
 ![](../images/avatar-photo.jpg)
 
-Hi! I am Dddd Aghajanyan. I am student from Dilijan Central School.
+Ողջույն! Ես Ալեքս Աղաջանյանն եմ։ Ես Դիլիջանի կենտրոնական դպրոցի աշակերտ եմ։
 
-Visit this website to see my work!
+Այցելեք այս կայքը՝ իմ աշխատանքները տեսնելու համար։
 
 ## My background
 
-I was born in a nice city called Yerevan.
-
+Ես ծնվել եմ Երևանում։
 ### Project A
 
 This is an image from an external site:
