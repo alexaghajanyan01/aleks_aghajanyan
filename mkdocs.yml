@@ -8,7 +8,7 @@ site_description: Ալեքսի Fab Academy փաստաթղթավորման կայ
 site_author: Ալեքս
 copyright: "© 2026 Ալեքս — Fab Academy"
 
-site_url: https://fibasile.fabcloud.io/fabacademy-student-template/
+site_url: site_url: https://alexaghajanyan01.github.io/aleks_aghajanyan/
 
 # ------------------------------------------------------------
 # Լրացուցիչ կարգավորումներ
@@ -147,3 +147,5 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
+extra_css:
+  - stylesheets/extra.css

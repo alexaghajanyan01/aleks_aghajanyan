@@ -1,6 +1,6 @@
 # Home
 
-## Ողջույն, ես Ալեքսն եմ։
+## Ողջույն, ես Ալեքս եմ։
 
 ![](./images/week01/assignment-photo.jpg)
 
