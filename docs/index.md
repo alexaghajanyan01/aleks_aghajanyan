@@ -2,7 +2,7 @@
 
 ## Ողջույն, ես Ալեքսն եմ։
 
-![](./images/week01/assignment-photo.jpg)
+![](./images/DCS1.jpg)
 
 ## Բարի գալուստ Fab Academy-ի իմ նոր կայք
 
