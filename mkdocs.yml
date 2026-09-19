@@ -1,8 +1,8 @@
 # Replace the text below to customize your site
-site_name: Ալեքս - Fab Academy
-site_description: Fab Academy documentation site for Alex
+site_name: Ալեքս - Ֆաբ Դպրոց
+site_description: Ֆաբ Դպրոցի ուսանողների համար նախատեսված կայքի ձևանմուշ
 site_author: Ալեքս
-copyright: Copyright 2026 Ալեքս - Creative Commons Attribution Non Commercial
+copyright: Copyright 2026 Ալեքս
 
 site_url: http://fibasile.fabcloud.io/fabacademy-student-template/
 
@@ -23,7 +23,7 @@ theme:
   name: material
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: deep
+    primary: golden
     accent: yellow
   font:
     # See available fonts at https://fonts.google.com/
