@@ -94,8 +94,3 @@ markdown_extensions:
 
       permalink: true 
 
-nav:
-  - Գլխավոր էջ: index.md
-  - Իմ մասին: about.md
-  - Առաջադրանքներ: assignments/index.md
-  - Նախագծեր: projects.md
