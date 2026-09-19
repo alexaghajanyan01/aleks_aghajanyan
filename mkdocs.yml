@@ -1,10 +1,16 @@
-# Replace the text below to customize your site
+## Replace the text below to customize your site
 site_name: Ալեքս - Ֆաբ Դպրոց
 site_description: Ֆաբ Դպրոցի ուսանողների համար նախատեսված կայքի ձևանմուշ
 site_author: Ալեքս
 copyright: Copyright 2026 Ալեքս
 
 site_url: http://fibasile.fabcloud.io/fabacademy-student-template/
+
+nav:
+  - Գլխավոր էջ: index.md
+  - Իմ մասին: about.md
+  - Առաջադրանքներ: assignments/index.md
+  - Նախագծեր: projects.md
 
 extra:
   # Set your own social media below (or remove)
@@ -51,4 +57,3 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
-
