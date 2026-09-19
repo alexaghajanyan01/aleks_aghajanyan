@@ -1,59 +1,96 @@
-## Replace the text below to customize your site
+
 site_name: Ալեքս - Ֆաբ Դպրոց
 site_description: Ֆաբ Դպրոցի ուսանողների համար նախատեսված կայքի ձևանմուշ
 site_author: Ալեքս
 copyright: Copyright 2026 Ալեքս
-
 site_url: http://fibasile.fabcloud.io/fabacademy-student-template/
-
-nav:
-  - Գլխավոր էջ: index.md
-  - Իմ մասին: about.md
-  - Առաջադրանքներ: assignments/index.md
-  - Նախագծեր: projects.md
-
 extra:
+
   # Set your own social media below (or remove)
+
   social:
+
     # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
+
     - icon: fontawesome/brands/instagram
+
       link: https://instagram.com/fabacademany
+
     - icon: fontawesome/brands/facebook
+
       link: https://facebook.com/fabacademany
+
     - icon: fontawesome/brands/twitter
+
       link: https://twitter.com/fabacademany
+
     - icon: fontawesome/brands/linkedin
+
       link: "https://linkedin.com/in/academany"
 
+
+
 theme:
+
   name: material
+
   palette:
+
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+
     primary: amber
+
     accent: orange
+
   font:
+
     # See available fonts at https://fonts.google.com/
+
     text: Ubuntu
+
     code: Ubuntu Mono
+
   icon:
+
     logo: material/school
+
   favicon: images/favicon.svg
+
   features:
+
     - navigation.tabs
+
     - navigation.instant
 
+
+
 plugins:
+
   - search
+
   - git-revision-date-localized:
+
       fallback_to_build_date: true
+
       # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
+
       enabled: !ENV [ENABLED_GIT_REVISION_DATE, False]
 
+
+
 markdown_extensions:
+
   - extra
+
   - smarty
+
   - admonition
+
   - codehilite:
+
       guess_lang: false
+
   - toc:
-      permalink: true
+
+      permalink: true 
+
