@@ -16,7 +16,7 @@ FAB SCHOOL · MY WORK
 
 <div class="assignment-grid">
 
-<a class="assignment-card" href="Շաբաթ%201.md">
+<a class="assignment-card" href="Շաբաթ 1/">
 
 <div>
 <span class="assignment-number">01</span>
@@ -36,7 +36,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%202.md">
+<a class="assignment-card" href="Շաբաթ 2/">
 
 <div>
 <span class="assignment-number">02</span>
@@ -56,7 +56,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%203.md">
+<a class="assignment-card" href="Շաբաթ 3/">
 
 <div>
 <span class="assignment-number">03</span>
@@ -76,7 +76,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%204.md">
+<a class="assignment-card" href="Շաբաթ 4/">
 
 <div>
 <span class="assignment-number">04</span>
@@ -96,7 +96,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%205.md">
+<a class="assignment-card" href="Շաբաթ 5/">
 
 <div>
 <span class="assignment-number">05</span>
@@ -116,7 +116,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%206.md">
+<a class="assignment-card" href="Շաբաթ 6/">
 
 <div>
 <span class="assignment-number">06</span>
@@ -136,7 +136,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%207.md">
+<a class="assignment-card" href="Շաբաթ 7/">
 
 <div>
 <span class="assignment-number">07</span>
@@ -156,7 +156,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%208.md">
+<a class="assignment-card" href="Շաբաթ 8/">
 
 <div>
 <span class="assignment-number">08</span>
@@ -176,7 +176,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%209.md">
+<a class="assignment-card" href="Շաբաթ 9/">
 
 <div>
 <span class="assignment-number">09</span>
@@ -196,7 +196,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2010.md">
+<a class="assignment-card" href="Շաբաթ 10/">
 
 <div>
 <span class="assignment-number">10</span>
@@ -216,7 +216,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2011.md">
+<a class="assignment-card" href="Շաբաթ 11/">
 
 <div>
 <span class="assignment-number">11</span>
@@ -236,7 +236,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2012.md">
+<a class="assignment-card" href="Շաբաթ 12/">
 
 <div>
 <span class="assignment-number">12</span>
@@ -256,7 +256,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2013.md">
+<a class="assignment-card" href="Շաբաթ 13/">
 
 <div>
 <span class="assignment-number">13</span>
@@ -276,7 +276,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2014.md">
+<a class="assignment-card" href="Շաբաթ 14/">
 
 <div>
 <span class="assignment-number">14</span>
@@ -296,7 +296,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2015.md">
+<a class="assignment-card" href="Շաբաթ 15/">
 
 <div>
 <span class="assignment-number">15</span>
@@ -316,7 +316,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2016.md">
+<a class="assignment-card" href="Շաբաթ 16/">
 
 <div>
 <span class="assignment-number">16</span>
@@ -336,7 +336,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2017.md">
+<a class="assignment-card" href="Շաբաթ 17/">
 
 <div>
 <span class="assignment-number">17</span>
@@ -356,7 +356,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2018.md">
+<a class="assignment-card" href="Շաբաթ 18/">
 
 <div>
 <span class="assignment-number">18</span>
@@ -376,7 +376,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2019.md">
+<a class="assignment-card" href="Շաբաթ 19/">
 
 <div>
 <span class="assignment-number">19</span>
@@ -396,7 +396,7 @@ FAB SCHOOL · MY WORK
 </a>
 
 
-<a class="assignment-card" href="Շաբաթ%2020.md">
+<a class="assignment-card" href="Շաբաթ 20/">
 
 <div>
 <span class="assignment-number">20</span>
