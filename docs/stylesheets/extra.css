@@ -1,76 +1,94 @@
 /* =========================================================
    Golden Theme — custom Material for MkDocs palette
+   Two schemes: default (light, warm ivory + gold) and
+   slate (dark, deep charcoal + gold), toggled by the user.
    ========================================================= */
 
+/* ---------- Shared gold tokens ---------- */
 :root {
   --gold-50:  #fdf6e3;
   --gold-100: #f7e6b8;
   --gold-300: #e6c766;
-  --gold-500: #d4af37;
+  --gold-500: #d4af37; /* core "gold" */
   --gold-600: #b8912a;
   --gold-700: #8f6f1f;
   --gold-900: #4a3a10;
 }
 
+/* ---------- Light (default) scheme ---------- */
 [data-md-color-scheme="default"] {
   --md-primary-fg-color:        var(--gold-600);
   --md-primary-fg-color--light: var(--gold-500);
   --md-primary-fg-color--dark:  var(--gold-700);
   --md-primary-bg-color:        #fffdf7;
   --md-primary-bg-color--light: #fffdf7;
+
   --md-accent-fg-color:         var(--gold-700);
   --md-accent-fg-color--transparent: rgba(212, 175, 55, 0.12);
   --md-accent-bg-color:         #fffdf7;
+
   --md-default-bg-color: #fffdf7;
   --md-default-fg-color: #2b2410;
   --md-default-fg-color--light: #4a3f22;
   --md-default-fg-color--lighter: #7a6c40;
+
   --md-code-bg-color: #f7efd9;
   --md-code-fg-color: #4a3a10;
+
   --md-typeset-a-color: var(--gold-700);
 }
 
+/* ---------- Dark (slate) scheme ---------- */
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color:        var(--gold-500);
   --md-primary-fg-color--light: var(--gold-300);
   --md-primary-fg-color--dark:  var(--gold-700);
   --md-primary-bg-color:        #1a160a;
   --md-primary-bg-color--light: #1a160a;
+
   --md-accent-fg-color:         var(--gold-300);
   --md-accent-fg-color--transparent: rgba(230, 199, 102, 0.15);
   --md-accent-bg-color:         #14110a;
+
   --md-default-bg-color: #14120c;
   --md-default-fg-color: #f2e9cf;
   --md-default-fg-color--light: #d8caa0;
   --md-default-fg-color--lighter: #a0916a;
+
   --md-code-bg-color: #201b0f;
   --md-code-fg-color: #e6c766;
+
   --md-typeset-a-color: var(--gold-300);
+
   --md-hue: 45;
 }
+
+/* =========================================================
+   Cosmetic touches — applied on top of the tokens above
+   ========================================================= */
 
 .md-typeset h1,
 .md-typeset h2 {
   border-bottom: 1px solid var(--gold-500);
   padding-bottom: 0.3rem;
 }
+
 .md-typeset h1 {
   font-weight: 700;
   letter-spacing: 0.02em;
 }
+
 .md-header {
   background: linear-gradient(120deg, var(--md-primary-fg-color), var(--md-primary-fg-color--dark));
 }
+
+/* Nav tabs: inherit the header's gold background so text stays legible
+   in both schemes (overriding just the background here breaks contrast
+   with --md-primary-bg-color, which is shared with the header text) */
 .md-tabs {
-  background: transparent;
   border-bottom: 1px solid var(--gold-500);
 }
-[data-md-color-scheme="default"] .md-tabs {
-  background: var(--gold-50);
-}
-[data-md-color-scheme="slate"] .md-tabs {
-  background: #1a160a;
-}
+
 .md-typeset .admonition,
 .md-typeset details {
   border-color: var(--gold-500);
@@ -79,21 +97,97 @@
 .md-typeset summary {
   background-color: var(--md-accent-fg-color--transparent);
 }
+
 .md-typeset code {
   border-radius: 3px;
 }
 .md-typeset pre > code {
   border-left: 3px solid var(--gold-500);
 }
+
 .md-search-result__link:hover,
 .md-search-result__link[data-md-state="active"] {
   background-color: var(--md-accent-fg-color--transparent);
 }
+
 .md-typeset pre::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb {
   background-color: var(--gold-500);
   border-radius: 4px;
 }
+
 .md-footer {
   border-top: 1px solid var(--gold-500);
+}
+
+/* =========================================================
+   Extra polish — content images, cards, nav, footer
+   ========================================================= */
+
+/* Content photos get a soft frame instead of sitting bare on the page */
+.md-typeset img {
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+[data-md-color-scheme="slate"] .md-typeset img {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+}
+
+/* Nav items: gentle highlight + gold left rule on hover/active */
+.md-nav__link {
+  border-left: 2px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+  padding-left: 0.6rem;
+}
+.md-nav__link:hover,
+.md-nav__link--active {
+  border-left-color: var(--gold-500);
+  color: var(--md-accent-fg-color) !important;
+}
+
+.md-tabs__link {
+  transition: opacity 0.15s ease;
+}
+.md-tabs__link:hover {
+  opacity: 0.75;
+}
+
+.md-typeset .md-button {
+  background: var(--gold-600);
+  color: #fffdf7 !important;
+  border: none;
+  border-radius: 6px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.md-typeset .md-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.35);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-default-fg-color);
+}
+
+/* "Back to top" pill */
+.md-top {
+  background-color: var(--gold-600);
+  color: #fffdf7;
+}
+
+.md-footer__link:hover {
+  opacity: 0.85;
+}
+.md-footer-meta {
+  background-color: var(--gold-900);
+}
+[data-md-color-scheme="default"] .md-footer-meta {
+  background-color: var(--gold-700);
+}
+
+.md-social__link svg {
+  transition: transform 0.15s ease;
+}
+.md-social__link:hover svg {
+  transform: scale(1.15);
 }
