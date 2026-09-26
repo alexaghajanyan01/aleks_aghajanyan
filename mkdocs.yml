@@ -8,8 +8,6 @@ copyright: © 2026 Ալեքս Աղաջանյան
 theme:
   name: material
 
-  language: hy
-
   logo: images/favicon.svg
   favicon: images/favicon.svg
 
@@ -65,13 +63,34 @@ markdown_extensions:
 
 nav:
   - 🏠 Գլխավոր: index.md
-  - 👤 Իմ մասին: Իմ մասին/index.md
-  - 📝 Առաջադրանքներ: Առաջադրանքներ/index.md
-  - 🚀 Նախագծեր: Նախագծեր/final-project.md
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/alexaghajanyan01
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/
+  - 👤 Իմ մասին:
+      - Իմ մասին: About me/index.md
+      - Համաձայնագիր: About me/agreement.md
+
+  - 📝 Առաջադրանքներ:
+      - Բոլոր առաջադրանքները: Exercises/index.md
+      - Շաբաթ 1: Exercises/Շաբաթ 1.md
+      - Շաբաթ 2: Exercises/Շաբաթ 2.md
+      - Շաբաթ 3: Exercises/Շաբաթ 3.md
+      - Շաբաթ 4: Exercises/Շաբաթ 4.md
+      - Շաբաթ 5: Exercises/Շաբաթ 5.md
+      - Շաբաթ 6: Exercises/Շաբաթ 6.md
+      - Շաբաթ 7: Exercises/Շաբաթ 7.md
+      - Շաբաթ 8: Exercises/Շաբաթ 8.md
+      - Շաբաթ 9: Exercises/Շաբաթ 9.md
+      - Շաբաթ 10: Exercises/Շաբաթ 10.md
+      - Շաբաթ 11: Exercises/Շաբաթ 11.md
+      - Շաբաթ 12: Exercises/Շաբաթ 12.md
+      - Շաբաթ 13: Exercises/Շաբաթ 13.md
+      - Շաբաթ 14: Exercises/Շաբաթ 14.md
+      - Շաբաթ 15: Exercises/Շաբաթ 15.md
+      - Շաբաթ 16: Exercises/Շաբաթ 16.md
+      - Շաբաթ 17: Exercises/Շաբաթ 17.md
+      - Շաբաթ 18: Exercises/Շաբաթ 18.md
+      - Շաբաթ 19: Exercises/Շաբաթ 19.md
+      - Շաբաթ 20: Exercises/Շաբաթ 20.md
+
+  - 🚀 Նախագծեր:
+      - Final Project: Projects/final-project.md
+      - Sample Project: Projects/sample-project.md
