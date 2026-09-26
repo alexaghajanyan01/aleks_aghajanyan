@@ -97,7 +97,7 @@ markdown_extensions:
 nav:
 
   - Գլխավոր էջ: index.md
-  - About me: about.md
+  - About me: About me/index.md
   - Exercises:
       - Շաբաթ 1: Շաբաթ 1.md
       - Շաբաթ 2: Շաբաթ 2.md
@@ -105,4 +105,4 @@ nav:
       - Շաբաթ 4: Շաբաթ 4.md
       - Շաբաթ 5: Շաբաթ 5.md
       - Շաբաթ 6: Շաբաթ 6.md
-  - Projects: projects.md
+  - Projects: Projects/final-project.md
