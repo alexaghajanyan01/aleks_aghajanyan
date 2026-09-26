@@ -96,7 +96,13 @@ markdown_extensions:
 
 nav:
 
-Գլխավոր էջ: index.md
-About me: about.md
-Exercises: assignments/index.md
-Projects: projects.md
+  - Գլխավոր էջ: index.md
+  - About me: about.md
+  - Exercises: assignments
+      - Շաբաթ 1: Շաբաթ 1.md
+      - Շաբաթ 2: Շաբաթ 2.md
+      - Շաբաթ 3: Շաբաթ 3.md
+      - Շաբաթ 4: Շաբաթ 4.md
+      - Շաբաթ 5: Շաբաթ 5.md
+      - Շաբաթ 6: Շաբաթ 6.md
+  - Projects: projects.md
