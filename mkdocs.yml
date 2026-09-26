@@ -1,74 +1,77 @@
-site_name: Ալեքս - Ֆաբ Դպրոց
-site_description: Ֆաբ Դպրոցի ուսանողների համար նախատեսված կայքի ձևանմուշ
-site_author: Ալեքս
-copyright: Copyright 2026 Ալեքս
-site_url: http://fibasile.fabcloud.io/fabacademy-student-template/
-extra:
-  social:
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/fabacademany
-    - icon: fontawesome/brands/facebook
-      link: https://facebook.com/fabacademany
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/fabacademany
-    - icon: fontawesome/brands/linkedin
-      link: "https://linkedin.com/in/academany"
+site_name: Ալեքս Աղաջանյան — Fab School
+site_description: Ալեքս Աղաջանյանի Fab School պորտֆոլիոն
+site_author: Ալեքս Աղաջանյան
+site_url: https://alexaghajanyan01.github.io/aleks_aghajanyan/
+
+copyright: © 2026 Ալեքս Աղաջանյան
 
 theme:
   name: material
+
+  language: hy
+
+  logo: images/favicon.svg
+  favicon: images/favicon.svg
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
+        icon: material/weather-night
+        name: Մութ ռեժիմ
+
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-  font:
-    text: Ubuntu
-    code: Ubuntu Mono
-  icon:
-    logo: material/school
-  favicon: images/favicon.svg
+        icon: material/weather-sunny
+        name: Լուսավոր ռեժիմ
+
   features:
     - navigation.tabs
+    - navigation.top
     - navigation.instant
     - navigation.tracking
+    - search.suggest
+    - search.highlight
     - content.code.copy
 
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/theme.js
+
 plugins:
   - search
-  - git-revision-date-localized:
-      fallback_to_build_date: true
-      enabled: !ENV [ENABLED_GIT_REVISION_DATE, False]
 
 markdown_extensions:
-  - extra
-  - smarty
   - admonition
-  - codehilite:
-      guess_lang: false
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
   - toc:
       permalink: true
 
 nav:
-  - Գլխավոր էջ: index.md
-  - About me: About me/index.md
-  - Exercises:
-    - Շաբաթ 1: Exercises/Շաբաթ 1.md
-    - Շաբաթ 2: Exercises/Շաբաթ 2.md
-    - Շաբաթ 3: Exercises/Շաբաթ 3.md
-    - Շաբաթ 4: Exercises/Շաբաթ 4.md
-    - Շաբաթ 5: Exercises/Շաբաթ 5.md
-    - Շաբաթ 6: Exercises/Շաբաթ 6.md
-  - Projects: Projects/final-project.md
+  - 🏠 Գլխավոր: index.md
+  - 👤 Իմ մասին: Իմ մասին/index.md
+  - 📝 Առաջադրանքներ: Առաջադրանքներ/index.md
+  - 🚀 Նախագծեր: Նախագծեր/final-project.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/alexaghajanyan01
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/
