@@ -1,5 +1,5 @@
-site_name: Ալեքս Աղաջանյան — Fab School
-site_description: Ալեքս Աղաջանյանի Fab School պորտֆոլիոն
+site_name: Ալեքս Աղաջանյան — Ֆաբ-Դպրոց 
+site_description: Ալեքս Աղաջանյանի Ֆաբ-Դպրոց պորտֆոլիոն
 site_author: Ալեքս Աղաջանյան
 site_url: https://alexaghajanyan01.github.io/aleks_aghajanyan/
 
@@ -16,8 +16,6 @@ theme:
     code: JetBrains Mono
 
   palette:
-
-    # LIGHT MODE
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
@@ -26,7 +24,6 @@ theme:
         icon: material/weather-night
         name: Մութ ռեժիմ
 
-    # DARK MODE
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
@@ -38,7 +35,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
-    - navigation.instant
     - navigation.tracking
     - search.suggest
     - search.highlight
@@ -65,7 +61,6 @@ markdown_extensions:
       permalink: true
 
 nav:
-
   - Գլխավոր էջ: index.md
 
   - Իմ մասին:
