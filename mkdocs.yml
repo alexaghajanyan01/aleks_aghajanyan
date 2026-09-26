@@ -98,11 +98,11 @@ nav:
 
   - Գլխավոր էջ: index.md
   - About me: About me/index.md
-  - Exercises: Exercises/
-      - Շաբաթ 1: Շաբաթ 1.md
-      - Շաբաթ 2: Շաբաթ 2.md
-      - Շաբաթ 3: Շաբաթ 3.md
-      - Շաբաթ 4: Շաբաթ 4.md
-      - Շաբաթ 5: Շաբաթ 5.md
-      - Շաբաթ 6: Շաբաթ 6.md
+  - Exercises: 
+      - Շաբաթ 1: Exercises/Շաբաթ 1.md
+      - Շաբաթ 2: Exercises/Շաբաթ 2.md
+      - Շաբաթ 3: Exercises/Շաբաթ 3.md
+      - Շաբաթ 4: Exercises/Շաբաթ 4.md
+      - Շաբաթ 5: Exercises/Շաբաթ 5.md
+      - Շաբաթ 6: Exercises/Շաբաթ 6.md
   - Projects: Projects/final-project.md
