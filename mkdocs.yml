@@ -16,6 +16,8 @@ theme:
     code: JetBrains Mono
 
   palette:
+
+    # LIGHT MODE
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
@@ -24,6 +26,7 @@ theme:
         icon: material/weather-night
         name: Մութ ռեժիմ
 
+    # DARK MODE
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
@@ -62,13 +65,14 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - 🏠 Գլխավոր: index.md
 
-  - 👤 Իմ մասին:
+  - Գլխավոր էջ: index.md
+
+  - Իմ մասին:
       - Իմ մասին: About me/index.md
       - Համաձայնագիր: About me/agreement.md
 
-  - 📝 Առաջադրանքներ:
+  - Առաջադրանքներ:
       - Բոլոր առաջադրանքները: Exercises/index.md
       - Շաբաթ 1: Exercises/Շաբաթ 1.md
       - Շաբաթ 2: Exercises/Շաբաթ 2.md
@@ -91,6 +95,6 @@ nav:
       - Շաբաթ 19: Exercises/Շաբաթ 19.md
       - Շաբաթ 20: Exercises/Շաբաթ 20.md
 
-  - 🚀 Նախագծեր:
+  - Նախագծեր:
       - Final Project: Projects/final-project.md
       - Sample Project: Projects/sample-project.md
